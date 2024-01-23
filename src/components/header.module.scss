@@ -52,7 +52,7 @@
       border-radius: 9999px;
 
       //bg-zinc-900 do tailwind  
-      background-color: #18181b;
+      background-color: rgb(24 24 27);
 
       //px-5 do tailwind
       padding: 0 20px;
@@ -72,6 +72,9 @@
 
         //text-zinc-500 do tailwind
         color: #8e8e93;
+
+        //bg-transparent do tailwind
+        background-color: transparent;
       }
 
       .searchInput {

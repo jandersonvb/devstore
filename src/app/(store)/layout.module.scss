@@ -4,14 +4,16 @@
   //use grid
   display: grid;
 
-  //min-h-screen do tailwind
-  min-height: 100vh;
+  height: 100vh;
+
+  //max-h-[860px] do tailwind
+  max-height: 860px;
 
   //w-full do tailwind
   width: 100%;
 
-  //max-w-[1600px] do tailwind
-  max-width: 1600px;
+  //max-w-[14 00px] do tailwind
+  max-width: 1400px;
 
   //grid-rows-[min-content_max-content] do tailwind
   grid-template-rows: min-content max-content;

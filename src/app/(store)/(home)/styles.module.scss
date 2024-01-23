@@ -1,0 +1,418 @@
+.container {
+  //grid no tailwind
+  display: grid;
+
+  //max-h-[860px] no tailwind
+  max-height: 860px;
+
+  //grid-cols-9 no tailwind
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  
+  //grid-rows-6 no tailwind
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+  
+  //gap-6 no tailwind
+  gap: 40px;
+
+  //relative no tailwind
+  position: relative;
+
+  
+
+  .wrapper {
+    //col-span-6 no tailwind
+    grid-column: span 6 / span 6;
+
+    //row-span-6 no tailwind
+    grid-row: span 6 / span 6;
+
+    //rounded-lg no tailwind
+    border-radius: 8px;
+
+    //bg-zinc-900 no tailwind
+    background-color: rgb(24 24 27);
+ 
+    border: 2px solid rgb(63 63 70);
+
+    //group no tailwind
+    position: relative;
+ 
+
+    //overflow-hidden no tailwind
+    overflow: hidden;
+   
+    //flex no tailwind
+    display: flex;
+
+    //justify-center no tailwind
+    justify-content: center;
+
+    //items-end no tailwind
+    align-items: flex-end;
+
+    .image {
+      //group-hover:scale-105 no tailwind
+      transition: all 0.3s ease-in-out;
+
+      //transition-transform  duration-500 no tailwind
+      transition-duration: 0.5s;
+
+
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    .princeContainer {
+      //absolute no tailwind
+      position: absolute;
+
+      //bottom-28 no tailwind
+      bottom: 28px;
+
+      //rigth-28 no tailwind
+      right: 28px;
+
+      //flex no tailwind
+      display: flex;
+
+      //items-center no tailwind
+      align-items: center;
+
+      //gap-2 no tailwind
+      gap: 8px;
+
+      //max-w-[280px] no tailwind
+      max-width: 280px;
+
+      //rounded-full no tailwind
+      border-radius: 9999px;
+
+      //border-2 no tailwind
+      border: 2px solid rgb(63 63 70);
+
+      //border-zinc-500 no tailwind
+      border-color:rgb(113 113 122);
+
+      //bg-black/60 no tailwind
+      background-color: rgba(0, 0, 0, 0.6);
+
+      //p-1 no tailwind
+      padding: 4px;
+
+      //pl-5 no tailwind
+      padding-left: 20px;
+
+      .description {
+        //... no texto em scss
+        overflow: hidden;
+     
+        //text-sm no tailwind
+        font-size: 14px;
+
+        //font-semibold no tailwind
+        font-weight: 600;
+
+        //text-shadow no tailwind
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);   
+               
+      }
+
+      .price {
+        //flex no tailwind
+        display: flex;
+
+        //h-full no tailwind
+        height: 100%;
+
+        //items-center no tailwind
+        align-items: center;
+
+        //justify-center no tailwind
+        justify-content: center;
+
+        //rounded-full no tailwind
+        border-radius: 9999px;
+
+        //bg-violet-500 no tailwind
+        background-color: rgb(136 0 255);
+
+        //px-4 no tailwind
+        padding: 8px 16px;
+
+        //font-semibold no tailwind
+        font-weight: 600;
+      }
+      
+    }
+  }
+
+  .wrapperOne {
+     //col-span-3 no tailwind
+     grid-column: span 3 / span 3;
+
+     //row-span-3 no tailwind
+     grid-row: span 3 / span 3;
+ 
+     //rounded-lg no tailwind
+     border-radius: 8px;
+ 
+     //bg-zinc-900 no tailwind
+     background-color: rgb(24 24 27);
+    
+    border: 2px solid rgb(63 63 70);
+
+      //group no tailwind
+      position: relative;
+ 
+ 
+     //overflow-hidden no tailwind
+     overflow: hidden;
+    
+     //flex no tailwind
+     display: flex;
+ 
+     //justify-center no tailwind
+     justify-content: center;
+ 
+     //items-end no tailwind
+     align-items: flex-end;
+
+     
+    //group no tailwind
+    position: relative;
+ 
+     .image {
+        //group-hover:scale-105 no tailwind
+        transition: all 0.3s ease-in-out;
+
+           //transition-transform  duration-500 no tailwind
+      transition-duration: 0.5s;
+
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      .princeContainerOne {
+        //absolute no tailwind
+        position: absolute;
+  
+        //bottom-28 no tailwind
+        bottom: 28px;
+  
+        //rigth-28 no tailwind
+        right: 28px;
+  
+        //flex no tailwind
+        display: flex;
+  
+        //items-center no tailwind
+        align-items: center;
+  
+        //gap-2 no tailwind
+        gap: 8px;
+  
+        //max-w-[280px] no tailwind
+        max-width: 280px;
+  
+        //rounded-full no tailwind
+        border-radius: 9999px;
+  
+        //border-2 no tailwind
+        border: 2px solid rgb(63 63 70);
+  
+        //border-zinc-500 no tailwind
+        border-color:rgb(113 113 122);
+  
+        //bg-black/60 no tailwind
+        background-color: rgba(0, 0, 0, 0.6);
+  
+        //p-1 no tailwind
+        padding: 4px;
+  
+        //pl-5 no tailwind
+        padding-left: 20px;
+  
+        .descriptionOne {
+          //... no texto em scss
+          overflow: hidden;
+       
+          //text-sm no tailwind
+          font-size: 14px;
+  
+          //font-semibold no tailwind
+          font-weight: 600;
+  
+          //text-shadow no tailwind
+          text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);   
+                 
+        }
+  
+        .priceOne {
+          //flex no tailwind
+          display: flex;
+  
+          //h-full no tailwind
+          height: 100%;
+  
+          //items-center no tailwind
+          align-items: center;
+  
+          //justify-center no tailwind
+          justify-content: center;
+  
+          //rounded-full no tailwind
+          border-radius: 9999px;
+  
+          //bg-violet-500 no tailwind
+          background-color: rgb(136 0 255);
+  
+          //px-4 no tailwind
+          padding: 8px 16px;
+  
+          //font-semibold no tailwind
+          font-weight: 600;
+        }
+        
+      }
+
+  }
+
+  .wrapperTwo {
+    //col-span-3 no tailwind
+    grid-column: span 3 / span 3;
+
+    //row-span-3 no tailwind
+    grid-row: span 3 / span 3;
+
+    //rounded-lg no tailwind
+    border-radius: 8px;
+
+    //bg-zinc-900 no tailwind
+    background-color: rgb(24 24 27);
+
+    border: 2px solid rgb(63 63 70);
+
+    //group no tailwind
+    position: relative;
+ 
+
+    //overflow-hidden no tailwind
+    overflow: hidden;
+   
+    //flex no tailwind
+    display: flex;
+
+    //justify-center no tailwind
+    justify-content: center;
+
+    //items-end no tailwind
+    align-items: flex-end;
+
+    
+    //group no tailwind
+    position: relative;
+ 
+
+    .image {
+      //group-hover:scale-105 no tailwind
+      transition: all 0.3s ease-in-out;
+
+         //transition-transform  duration-500 no tailwind
+         transition-duration: 0.5s;
+
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+    }
+
+    .princeContainerTwo {
+      //absolute no tailwind
+      position: absolute;
+
+      //bottom-28 no tailwind
+      bottom: 28px;
+
+      //rigth-28 no tailwind
+      right: 28px;
+
+      //flex no tailwind
+      display: flex;
+
+      //items-center no tailwind
+      align-items: center;
+
+      //gap-2 no tailwind
+      gap: 8px;
+
+      //max-w-[280px] no tailwind
+      max-width: 280px;
+
+      //rounded-full no tailwind
+      border-radius: 9999px;
+
+      //border-2 no tailwind
+      border: 2px solid rgb(63 63 70);
+
+      //border-zinc-500 no tailwind
+      border-color:rgb(113 113 122);
+
+      //bg-black/60 no tailwind
+      background-color: rgba(0, 0, 0, 0.6);
+
+      //p-1 no tailwind
+      padding: 4px;
+
+      //pl-5 no tailwind
+      padding-left: 20px;
+
+      .descriptionTwo {
+        //... no texto em scss
+        overflow: hidden;
+     
+        //text-sm no tailwind
+        font-size: 14px;
+
+        //font-semibold no tailwind
+        font-weight: 600;
+
+        //text-shadow no tailwind
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);   
+               
+      }
+
+      .priceTwo {
+        //flex no tailwind
+        display: flex;
+
+        //h-full no tailwind
+        height: 100%;
+
+        //items-center no tailwind
+        align-items: center;
+
+        //justify-center no tailwind
+        justify-content: center;
+
+        //rounded-full no tailwind
+        border-radius: 9999px;
+
+        //bg-violet-500 no tailwind
+        background-color: rgb(136 0 255);
+
+        //px-4 no tailwind
+        padding: 8px 16px;
+
+        //font-semibold no tailwind
+        font-weight: 600;
+      }
+      
+    }
+
+ }
+}
